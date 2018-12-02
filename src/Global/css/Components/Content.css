@@ -1,0 +1,30 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+}
+
+.sectionOne {
+    background-color: #66696b;
+    padding: 10px;
+    margin-right: 5px;
+    width: 50%;
+    min-height: 300px;
+}
+
+.sectionTwo {
+    background-color: #66696b;
+    padding: 10px;
+    margin-left: 5px;
+    width: 50%;
+    min-height: 300px;
+}
