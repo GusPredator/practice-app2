@@ -6,6 +6,14 @@
     width: 100%;
 }
 
+.carouselContainer {
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    width: 500px;
+    height: 100%;
+}
+
 .sectionContainer {
     display: flex;
     flex-direction: row;
