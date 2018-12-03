@@ -28,23 +28,10 @@ class Content extends Component {
                 
                 <div className="sectionContainer">
                     <div className="sectionOne">
-                        <div className="sectionOneButtonContainer">
-                            <button className="sectionOneButtons">
-                                Acceder
-                            </button>
-                            <button className="sectionOneButtons">
-                                Cambiar
-                            </button>
+                        <div className="soButtonsContainer">
+                            <button className="soButtons">Aceptar</button>
+                            <button className="soButtons">Cancelar</button>
                         </div>
-                        <div className="sectionOneButtonContainer">
-                            <button className="sectionOneButtons">
-                                Reiniciar
-                            </button>
-                            <button className="sectionOneButtons">
-                                Salir
-                            </button>
-                        </div>
-                        
                     </div>
                     <div className="sectionTwo">
                         Y ahora otro poema
