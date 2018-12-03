@@ -29,6 +29,20 @@
     min-height: 300px;
 }
 
+.sectionOneButtonContainer {
+    height: 50%;
+    width: 100%;
+}
+
+.sectionOneButtons {
+    width: 35%;
+    height: 25%;
+    background-color: #61DBF7;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-self: center;
+}
+
 .sectionTwo {
     background-color: #66696b;
     padding: 10px;
@@ -36,3 +50,4 @@
     width: 50%;
     min-height: 300px;
 }
+

@@ -11,7 +11,8 @@ class Content extends Component {
                 <div className="carouselContainer">
                     <Carousel
                         className="carouselContainer"
-                        dynamicHeight={true}
+                        showThumbs={false}
+                        autoPlay interval={2000} infiniteLoop
                     >
                         <div>
                             <img src="https://images5.alphacoders.com/802/802067.jpg" alt="diana" />
@@ -27,10 +28,26 @@ class Content extends Component {
                 
                 <div className="sectionContainer">
                     <div className="sectionOne">
-                        Hola
+                        <div className="sectionOneButtonContainer">
+                            <button className="sectionOneButtons">
+                                Acceder
+                            </button>
+                            <button className="sectionOneButtons">
+                                Cambiar
+                            </button>
+                        </div>
+                        <div className="sectionOneButtonContainer">
+                            <button className="sectionOneButtons">
+                                Reiniciar
+                            </button>
+                            <button className="sectionOneButtons">
+                                Salir
+                            </button>
+                        </div>
+                        
                     </div>
                     <div className="sectionTwo">
-                        Hola 2
+                        Y ahora otro poema
                     </div>
                 </div>
             </div>

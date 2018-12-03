@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                Soy el pie de pagina
+                <p>Todos los derechos reservados 2019</p>
             </div>
         )
     }

@@ -25,15 +25,10 @@
     padding: 5px;
 }
 
-.userContainer {
-    background-color: #66696B;
-    min-height: 50px;
-    width: 100%;
-}
-
 .userContainerElements {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 .userContainerElementsImage {

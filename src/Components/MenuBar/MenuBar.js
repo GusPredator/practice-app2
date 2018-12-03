@@ -10,8 +10,6 @@ class MenuBar extends Component {
             <div className="mainContainer">
                 <div className="menuElementsContainer">
                     {datas.map(data => <div className="menuElements" key={data.elements.id}><p className="menuElementsText">{data.elements.nombre}</p></div>)}
-                </div>
-                <div className="userContainer">
                     <div className="userContainerElements">
                         <img 
                             className="userContainerElementsImage"
@@ -21,6 +19,7 @@ class MenuBar extends Component {
                         <p className="userContainerElementsText">Gustavo Sánchez</p>
                     </div>
                 </div>
+                
             </div>
             
         )
