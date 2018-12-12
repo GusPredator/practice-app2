@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import { Switch, Route } from 'react-router-dom'
 
-import './../Global/css/Components/Content.css'
+import './../Global/css/Components/Content.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+import Login from './Pages/Login';
+import Page1 from './Pages/Page1';
+import Page2 from './Pages/Page2';
+
+import image1 from '../Global/img/carousel1.jpg';
+import image2 from '../Global/img/carousel2.jpg';
+import image3 from '../Global/img/carousel3.jpg';
 
 class Content extends Component {
     render() {
@@ -12,31 +21,24 @@ class Content extends Component {
                     <Carousel
                         className="carouselContainer"
                         showThumbs={false}
-                        autoPlay interval={2000} infiniteLoop
+                        autoPlay interval={2500} infiniteLoop
                     >
                         <div>
-                            <img src="https://images5.alphacoders.com/802/802067.jpg" alt="diana" />
+                            <img src={image1} alt="diana" />
                         </div>
                         <div>
-                            <img src="http://lolwp.com/wp-content/uploads/2012/02/Arcade-Skins-Wallpaper.jpg" alt="arcadia" />
+                            <img src={image2} alt="arcadia" />
                         </div>
                         <div>
-                            <img src="https://images6.alphacoders.com/651/651136.jpg" alt="kindred" />
+                            <img src={image3} alt="kindred" />
                         </div>
                     </Carousel>
                 </div>
-                
-                <div className="sectionContainer">
-                    <div className="sectionOne">
-                        <div className="soButtonsContainer">
-                            <button className="soButtons">Aceptar</button>
-                            <button className="soButtons">Cancelar</button>
-                        </div>
-                    </div>
-                    <div className="sectionTwo">
-                        Y ahora otro poema
-                    </div>
-                </div>
+                <Switch>
+                    <Route exact path='/' component={Login}/>
+                    <Route path='/page1' component={Page1}/>
+                    <Route path='/page2' component={Page2}/>
+                </Switch>
             </div>
         )
     }

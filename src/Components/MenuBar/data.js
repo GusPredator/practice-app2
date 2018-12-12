@@ -3,21 +3,21 @@ export default [
         elements: {
             id: 1,
             nombre: 'Inicio',
-            enlace: '/Inicio',
+            enlace: '/',
         },
     },
     {
         elements: {
             id: 2,
             nombre: 'Contacto',
-            enlace: '/Contacto',
+            enlace: '/page1',
         },
     },
     {
         elements: {
             id: 3,
             nombre: 'Nosotros',
-            enlace: '/Nosotros',
+            enlace: '/page2',
         },
     }
 ]
